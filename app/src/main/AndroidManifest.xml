@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_hotel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.ReservationInfoActivity"
+            android:label="@string/title_activity_reservation_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.FeedbackActivity"
+            android:exported="true"
+            android:label="@string/feedback" />
+        <activity
+            android:name=".activity.GalleryActivity"
+            android:exported="true"
+            android:label="@string/gallery" />
+        <activity
+            android:name=".activity.LocationActivity"
+            android:exported="true"
+            android:label="@string/location" />
+        <activity
+            android:name=".database.RestaurantMenuActivity"
+            android:exported="true"
+            android:label="@string/restaurant" />
+        <activity
+            android:name=".activity.ReservationActivity"
+            android:exported="true"
+            android:label="@string/reservation" />
+        <activity
+            android:name=".activity.HotelActivity"
+            android:exported="true"
+            android:label="@string/hotel" />
+        <activity
+            android:name=".activity.PhotoActivity"
+            android:exported="true"
+            android:label="@string/photo" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

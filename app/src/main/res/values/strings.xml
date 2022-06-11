@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MyHotel</string>
+    <string name="app_name_after">Register App</string>
+    <string name="text_button_login">Login to your account!</string>
+    <string name="text_button_sign_in">Login</string>
+    <string name="text_button_register">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info_hotel">About Hotel</string>
+    <string name="action_reservation">Reservation</string>
+    <string name="action_room">Rooms</string>
+    <string name="action_location">Location</string>
+    <string name="action_info_program">To home page</string>
+    <string name="todo">TODO</string>
+    <string name="hotel">Hotel</string>
+    <string name="photo">Photo</string>
+    <string name="reservation">Reservation</string>
+    <string name="rooms">Rooms</string>
+    <string name="location">Location</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="gallery">Gallery</string>
+    <string name="fixed_footer">MyHotel</string>
+    <string name="feedback">Feedback</string>
+    <string name="set_the_date">Set the Date</string>
+    <string name="search">Search</string>
+    <string name="select">Select check-in date</string>
+    <string name="gratitude">Thanks for your feedback!</string>
+    <string name="gratitudeReservationInfo">Thank you for your choice! Wait, our consultant will contact you by phone.</string>
+    <string name="hotel_info">RECEPTION SERVICE \n
+         telephone: +375 17 000-00-00 \n
+         e-mail: reception@myhotel.by \n
+         DEPARTMENT OF MARKETING AND SALES \n
+         telephone: +375 17 000-00-00 \n
+         e-mail: marketing@mynotel.by \n
+         RESERVATION DEPARTMENT \n
+         телефон: +375 17 000-00-00 \n
+         e-mail: info@myhotel.by</string>
+    <string name="go_home">Go home</string>
+    <string name="room_info">
+        "       Уютный номер для размещения одного или двух человек. Площадь номера от 14 до 18 м2. В комнате одна большая кровать, рабочая зона, мини-бар, чайник, телефон, телевизор, шкаф. В ванной комнате: фен, ванна, туалет, бесплатные гигиенические принадлежности: мыло, шампунь, комплект полотенец.
+        Все номера оборудованы кондиционерами. В каждом номере нашего отеля работает бесплатный Wi-Fi.  Стойка регистрации гостиницы работает круглосуточно. Уборка номера – ежедневно." </string>
+    <string name="title_activity_reservation_info">ReservationInfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_info_hotel"
+        android:orderInCategory="100"
+        android:title="@string/action_info_hotel"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_reservation"
+        android:orderInCategory="100"
+        android:title="@string/action_reservation"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_room"
+        android:orderInCategory="100"
+        android:title="@string/action_room"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:title="@string/action_location"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_info_program"
+        android:orderInCategory="100"
+        android:title="@string/action_info_program"
+        app:showAsAction="never"/>
+</menu>
