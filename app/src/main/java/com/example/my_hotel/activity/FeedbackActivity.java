@@ -117,7 +117,8 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(gallery);
                 return true;
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
+                Intent settings = new Intent(FeedbackActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -52,7 +52,8 @@ public class HotelActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
+                Intent settings = new Intent(HotelActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

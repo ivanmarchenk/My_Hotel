@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.my_hotel.R;
+import com.example.my_hotel.activity.SettingsActivity;
 import com.example.my_hotel.database.RestaurantMenuActivity;
 import com.example.my_hotel.activity.FeedbackActivity;
 import com.example.my_hotel.activity.GalleryActivity;
@@ -128,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(gallery);
                 return true;
             case R.id.action_settings:
+                Intent settings = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

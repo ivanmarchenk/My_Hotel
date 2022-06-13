@@ -6,6 +6,7 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,9 +37,13 @@ public class LocationActivity extends AppCompatActivity {
                 new CameraPosition(new Point(55.751574, 37.573856), 11.0f, 0.0f, 0.0f),
                 new Animation(Animation.Type.SMOOTH, 0),
                 null);
+
+        Point mappoint= new Point(55.79, 37.57);
+        mapview.getMap().getMapObjects().addPlacemark(mappoint);
     }
 
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         switch (requestCode) {
             case 1: {
                 if (grantResults.length > 0
@@ -103,7 +108,8 @@ public class LocationActivity extends AppCompatActivity {
                 startActivity(gallery);
                 return true;
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
+                Intent settings = new Intent(LocationActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -64,7 +64,8 @@ public class GalleryActivity extends AppCompatActivity {
                 startActivity(reservation);
                 return true;
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
+                Intent settings = new Intent(GalleryActivity.this, SettingsActivity.class);
+                startActivity(settings);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

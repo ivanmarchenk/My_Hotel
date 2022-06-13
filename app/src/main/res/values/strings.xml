@@ -34,6 +34,12 @@
          RESERVATION DEPARTMENT \n
          телефон: +375 17 000-00-00 \n
          e-mail: info@myhotel.by</string>
+    <string name="hotel_info_mini">RECEPTION SERVICE \n
+         telephone: +375 17 000-00-00 \n
+         e-mail: reception@myhotel.by \n
+         RESERVATION DEPARTMENT \n
+         телефон: +375 17 000-00-00 \n
+         e-mail: info@myhotel.by</string>
     <string name="go_home">Go home</string>
     <string name="room_info">
         "       Уютный номер для размещения одного или двух человек. Площадь номера от 14 до 18 м2. В комнате одна большая кровать, рабочая зона, мини-бар, чайник, телефон, телевизор, шкаф. В ванной комнате: фен, ванна, туалет, бесплатные гигиенические принадлежности: мыло, шампунь, комплект полотенец.
@@ -47,5 +53,21 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 
